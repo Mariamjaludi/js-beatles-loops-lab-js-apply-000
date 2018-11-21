@@ -1,4 +1,12 @@
 // add solution here
+function theBeatlesPlay(musicians, instruments){
+  var temp = [];
+  for(let i=0; i<musicians.length; i++){
+    temp[i] = `${musicians[i]} plays ${instruments[i]}.`;  
+  }
+  return temp; 
+}
+
 function iLoveTheBeatles(number){
   var temp = [];
   var i = 0;
@@ -9,3 +17,5 @@ function iLoveTheBeatles(number){
   } while (number < 15)
   return temp;
 }
+
+
